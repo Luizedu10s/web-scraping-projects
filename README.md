@@ -1,5 +1,5 @@
 # web-scraping-projects
-Utilizando bibliotecas como beautifolsop e requests para extrair dados de páginas web.
+Utilizando bibliotecas como beautifulsop e requests para extrair dados de páginas web.
 
 <h3 style=" background-color: white; color: red;"> arquivo 1 - Extraindo a cotação do dolar de  um site da web em tempo real. </h3> 
 
