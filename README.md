@@ -3,4 +3,4 @@ Utilizando bibliotecas como beautifolsop e requests para extrair dados de págin
 
 # arquivo 1 - Extraindo a cotação do dolar de  um site da web em tempo real.
 
-# arquivo 2 - buscando produto dentro do site do mercado livre e verificando seu preço.
+# arquivo 2 - buscando produto dentro do site do mercado livre e exibindo seu preço em simultâneo.
