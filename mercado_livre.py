@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 url_base = 'https://lista.mercadolivre.com.br/'
 # INPUT PARA SABER O PRODUTO QUE O USUÁRIO QUER BUSCAR NO SITE:
 nome_produto = input("Digite o nome do produto que você quer buscar: ")
-# REQUISIÇÃO AO SITE, É SÓ CONCATENAR A URL BASE JUNTO AO NOME DO PRODUTO DIGITADONO INPUT.
+# REQUISIÇÃO AO SITE, É SÓ CONCATENAR A URL BASE JUNTO AO NOME DO PRODUTO DIGITADO NO INPUT.
 requisicao = requests.get(url_base + nome_produto)
 # BUSCA POR PRODUTO ESPECÍFICO NO SITE.
 pag_html = BeautifulSoup(requisicao.content, 'html.parser')
