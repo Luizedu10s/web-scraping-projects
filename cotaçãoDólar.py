@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 requisicao_server = requests.get("https://wise.com/br/currency-converter/dolar-hoje")
 # MOSTRAR CONTEÚDO DA PÁGINA
 pag = requisicao_server.content
-# TRANSFORMAR ATRAVÉS DO BEAUTIFULSOP, POIS PARA UTILIZAR AS FERRAMENTAS DA BIBILIOTECA É NECESSÁRIO FAZER ESTA CONVERSÃO.
+# TRANSFORMAR ATRAVÉS DO BEAUTIFULSOP, POIS PARA UTILIZAR AS FERRAMENTAS DA BIBLIOTECA É NECESSÁRIO FAZER ESTA CONVERSÃO.
 pag_html = BeautifulSoup(pag, "html.parser")
 # BUSCANDO INFORMAÇÕES NA PÁGINA
 cotacao = pag_html.find('h3', attrs={'class': 'cc__source-to-target'})
