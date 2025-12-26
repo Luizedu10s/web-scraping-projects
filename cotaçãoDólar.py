@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # REQUISIÇÃO NO SERVIDOR
-requisicao_server = requests.get("https://wise.com/br/currency-converter/dolar-hoje")
+requisicao_server = requests.get() # SITE ONDE BUSCA A COTAÇÃO
 # MOSTRAR CONTEÚDO DA PÁGINA
 pag = requisicao_server.content
 # TRANSFORMAR ATRAVÉS DO BEAUTIFULSOP, POIS PARA UTILIZAR AS FERRAMENTAS DA BIBLIOTECA É NECESSÁRIO FAZER ESTA CONVERSÃO.
